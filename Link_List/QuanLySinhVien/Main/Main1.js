@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var LinkNew_1 = require("./LinkNew");
+var linklist = new LinkNew_1.LinkedList();
+linklist.insertFirst({ name: "Ciki", score: 8 });
+linklist.insertFirst({ name: "Ciki", score: 5 });
+linklist.insertFirst({ name: "Ciki", score: 1 });
+linklist.insertLast({ name: "Ciki", score: 6 });
+linklist.insertFirst({ name: "Ciki", score: 3 });
+console.log(linklist.showList());
+console.log(linklist.totalStudentsFail());
