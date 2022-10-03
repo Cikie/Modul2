@@ -9,3 +9,4 @@ linklist.insertFirst({name:"Tifany",score:3});
 
 console.log(linklist.showList());
 console.log(linklist.totalStudentsFail());
+console.log(linklist.getSize())

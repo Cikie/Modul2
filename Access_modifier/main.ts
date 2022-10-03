@@ -11,5 +11,10 @@ function main(){
     employeeManager.add(staff2);
     employeeManager.add(staff3);
     console.log(employeeManager.show())
+    employeeManager.deleteByFilter(3)
+    console.log("Sau Xoa");
+    console.log(employeeManager.show())
+    employeeManager.edit(2,"Minh Em");
+    console.log(employeeManager.show())
 }
 main()
